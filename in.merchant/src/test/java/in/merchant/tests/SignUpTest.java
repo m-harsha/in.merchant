@@ -20,11 +20,11 @@ public class SignUpTest extends Base {
 		String email = excel.getCellData(0, 3);
 		String Password1 = excel.getCellData(0, 4);
 		String passWord = excel.getCellData(0, 5);
-		String category = excel.getCellData(0, 6);
-		String channel = excel.getCellData(0, 7);
+		//String channel = excel.getCellData(0, 6);
+		//String Sales = excel.getCellData(0, 7);
 		String postal = excel.getCellData(0, 8);
 		signuppage = new SignUpPage(driver);
-		signuppage.Create_Merchant(shopName, ownerName, phoneNumber, email, Password1, passWord, category, channel,
+		signuppage.Create_Merchant(shopName, ownerName, phoneNumber, email, Password1, passWord,
 				postal);
 
 	}
